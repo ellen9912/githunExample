@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <ImageButton
+        android:id="@+id/main_wholeobdy"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_wholebody" />
+
+    <ImageButton
+        android:id="@+id/main_eye"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_eye" />
+
+    <ImageButton
+        android:id="@+id/main_neck"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_neck" />
+
+    <ImageButton
+        android:id="@+id/main_chest"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_chest"  />
+
+    <ImageButton
+        android:id="@+id/main_arm"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_arm"/>
+
+    <ImageButton
+        android:id="@+id/main_side"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_side" />
+
+    <ImageButton
+        android:id="@+id/main_leg"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/main_leg" />
+
+
+    </LinearLayout>
+</ScrollView>

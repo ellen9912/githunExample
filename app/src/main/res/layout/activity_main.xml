@@ -13,32 +13,6 @@
 
 
 
-    <ImageButton
-        android:id="@+id/main_wholeobdy"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/main_wholebody" />
-
-    <ImageButton
-        android:id="@+id/main_eye"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/main_eye" />
-
-    <ImageButton
-        android:id="@+id/main_neck"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/main_neck" />
-
-    <ImageButton
-        android:id="@+id/main_chest"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/main_chest"  />
 
     <ImageButton
         android:id="@+id/main_arm"
@@ -47,19 +21,36 @@
         android:layout_marginTop="5dp"
         android:src="@drawable/main_arm"/>
 
-    <ImageButton
+        <ImageButton
+            android:id="@+id/main_leg"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/main_leg" />
+
+        <ImageButton
+            android:id="@+id/main_abdomen"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/main_abdomen" />
+
+        <ImageButton
         android:id="@+id/main_side"
         android:layout_width="450dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/main_side" />
 
-    <ImageButton
-        android:id="@+id/main_leg"
-        android:layout_width="450dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/main_leg" />
+        <ImageButton
+            android:id="@+id/main_back"
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/main_back" />
+
+
+
 
 
     </LinearLayout>

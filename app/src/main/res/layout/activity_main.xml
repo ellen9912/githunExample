@@ -13,6 +13,13 @@
 
 
         <ImageButton
+            android:id="@+id/main_wholebody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/main_wholebody" />
+
+        <ImageButton
             android:id="@+id/main_arm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
